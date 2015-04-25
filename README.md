@@ -1,1 +1,4 @@
-# ca-widget-rendering-task
+Small symfony 2.6 project
+===============
+
+

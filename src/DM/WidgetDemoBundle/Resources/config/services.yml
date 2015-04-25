@@ -1,0 +1,9 @@
+services:
+    dm_widget_demo.user_rating_fetcher:
+        class: DM\WidgetDemoBundle\Services\UserRatingFetcher
+
+    dm_widget_demo.widget_renderer:
+        class: DM\WidgetDemoBundle\Services\WidgetRenderer
+        arguments:
+            - @dm_widget_demo.user_rating_fetcher
+            - @=service('kernel').locateResource('@DMWidgetDemoBundle/Resources/font/verdana.ttf')

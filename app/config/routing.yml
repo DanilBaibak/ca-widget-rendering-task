@@ -1,0 +1,4 @@
+dm_widget_demo:
+    resource: "@DMWidgetDemoBundle/Controller/"
+    type:     annotation
+    prefix:   /
