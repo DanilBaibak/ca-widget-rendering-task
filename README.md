@@ -16,11 +16,13 @@ The app should have one public endpoint that can return image data and respects 
     background-color (hex value, e.g. 000000 means black)
     text-color (hex value)
 
-Those attributes and the public identifier of the user should be included somehow in the route/path for the endpoint and thus used and validated by the app to generate a correct widget. The content of the widget itself is only one number (percentage of average rating of this user) and can have a random value. Attached you find one example of a widget with 100*100 px and black background + white text.
+Those attributes and the public identifier of the user should be included somehow in the route/path for the endpoint and thus used and validated by the app to generate a correct widget. The content of the widget itself is only one number (percentage of average rating of this user) and can have a random value. 
 Some further requirements:
 
     Symfony 2.6
     Mysql database
     Tests ;)
 
+Attached you find one example of a widget with 100*100 px and black background + white text.
 
+![alt tag](https://github.com/dmaicher/ca-widget-rendering-task/blob/master/widget_example.png)
